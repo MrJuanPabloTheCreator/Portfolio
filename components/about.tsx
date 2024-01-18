@@ -41,7 +41,7 @@ export const About = () => {
         className="font-medium text-2xl text-center px-10"
         variants={textVariants}
       >
-        23-year-old native of Santiago, Chile, currently pursuing a <span className="font-extrabold text-black">Bachelor's degree in Computer Information Systems </span> 
+        23-year-old native of Santiago, Chile, currently pursuing a <span className="font-extrabold text-black">Bachelors degree in Computer Information Systems </span> 
         with a minor in Business at <span className="font-extrabold text-black">Missouri Valley College</span>, set to graduate in May 2024. I have a strong passion for technology 
         and a keen interest in web development. My skills range from confidently handling the front-end of websites to proficiently 
         working on the back-end. With a solid understanding of APIs and software development, I am committed to putting in the hard 
