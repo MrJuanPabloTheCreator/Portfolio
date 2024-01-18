@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+:root {
+  height: 100%;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +30,30 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.app-container {
+  background: #f3f3ff;
+}
+
+.circle-pink {
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+  filter: blur(230px);
+  position: fixed;
+  z-index: 0;
+  top: 250px;
+  left: 150px;
+}
+
+.circle-blue {
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(to bottom, #00abff 40%, #f8f4ee 50%);
+  filter: blur(230px);
+  position: fixed;
+  z-index: 0;
+  top: 400px;
+  left: 1200px;
 }
