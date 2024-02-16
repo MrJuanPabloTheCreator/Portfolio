@@ -6,7 +6,7 @@ import { Skills } from "@/components/skills";
 
 export default function Home() {
   return (
-    <div className='app-container flex flex-col items-center'>
+    <div className='grid grid-cols-1 2xl:gap-64 bg-slate-900'>
       <div className="circle-blue"/>
       <div className="circle-pink"/>
       <Landing/>

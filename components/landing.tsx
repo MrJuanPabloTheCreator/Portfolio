@@ -12,9 +12,9 @@ export const Landing = () => {
         <section 
             id="home"
             ref={ref}
-            className="mb-40 sm:mt-40 mt-[100px] scroll-mt-[100rem] xl:w-[1280px] lg:w-[1024px] md:w-[768px] z-10"
+            className="flex justify-center mt-40 z-10 scroll-mt-40"
         >   
-            <div className="flex flex-col sm:flex-row items-center justify-center">
+            <div className="flex items-center justify-center">
                 <motion.div 
                     className="flex sm:w-[320px] sm:h-[320px] w-[220px] h-[220px] bg-white rounded-full items-center justify-center shadow-xl"     
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -40,9 +40,9 @@ export const Landing = () => {
                     className="mt-10 ml-[-60px] sm:m-0  flex flex-col space-y-2 sm:items-start"
                 >
                     <div className="text-center sm:text-start">
-                        <h1 className="text-5xl font-bold text-pgray sm:ml-[-15px]">Juan-Pablo</h1>
-                        <h1 className="text-5xl font-bold text-pgray sm:ml-[-10px]">Cerda</h1>
-                        <p className="text-lg font-medium text-plightgray">Software Engineer | Front-End | Back-End</p>
+                        <h1 className="text-5xl font-bold text-white sm:ml-[-15px]">Juan-Pablo</h1>
+                        <h1 className="text-5xl font-bold text-white sm:ml-[-10px]">Cerda</h1>
+                        <p className="text-lg font-medium text-white/50">Software Engineer | Full-Stack Developer</p>
                     </div>
                     <div
                         className="flex flex-col sm:flex-row items-center justify-center gap-2 ml-[-15px] text-lg font-medium"
@@ -67,7 +67,7 @@ export const Landing = () => {
 
                         <a
                         className="bg-white p-4 text-black shadow-lg hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-                        href="https://www.linkedin.com/in/juan-pablo-cerda-silva-807506276/"
+                        href="https://www.linkedin.com/in/juanpcerda/"
                         target="_blank"
                         >
                             <BsLinkedin />
