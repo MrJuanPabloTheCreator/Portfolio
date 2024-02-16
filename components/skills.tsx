@@ -15,7 +15,7 @@ export const Skills = () => {
     >
       <div className="flex flex-col items-center z-10">
           <div className='flex w-full items-center justify-center'>
-            <h2 className="font-extrabold text-white/60 w-[600px] text-center py-4 text-5xl">
+            <h2 className="font-extrabold text-white/60 w-[600px] text-center mb-5 text-5xl">
               Skills & Technologies
             </h2>
           </div> 

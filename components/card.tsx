@@ -25,7 +25,7 @@ const Card: React.FC<SkillsProps> = ({
 }) => {
   return (
     
-    <motion.div whileHover={{ scale: 1.05 }} className=" bg-white/60 flex rounded-2xl space-x-4 p-2 items-center hover:bg-white/90 h-40 overflow-visible">
+    <motion.div whileHover={{ scale: 1.05 }} className=" bg-white/70 flex rounded-2xl space-x-4 p-2 items-center hover:bg-white/90 h-40 overflow-visible">
           <div className="h-[70px] w-[80px]">
             <img
               src={img}
