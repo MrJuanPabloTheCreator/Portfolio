@@ -28,9 +28,9 @@ export const Landing = () => {
                 >
                     <div className="sm:w-[300px] sm:h-[300px] w-[200px] h-[200px] rounded-full overflow-hidden relative">
                         <img
-                            src="/Portfolio.jpg"
+                            src="/NoBackgroundEdit_2.jpeg"
                             alt="hero_cover"
-                            className="sm:mt-[-130px] mt-[-90px] object-contain"
+                            className=" object-contain"
                         />
                     </div>
                 </motion.div>
