@@ -34,7 +34,7 @@ export const About = () => {
         className='w-full'
         // variants={textVariants}
       >
-        <h2 className="font-extrabold text-white/40 text-center mb-5 text-5xl">
+        <h2 className="font-extrabold text-white text-center mb-5 text-5xl">
           About me
         </h2>
       </motion.div>

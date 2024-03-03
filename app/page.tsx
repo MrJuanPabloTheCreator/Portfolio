@@ -1,6 +1,7 @@
 "use client"
 
 import { About } from "@/components/about";
+import { Experience } from "@/components/experience";
 import { Landing } from "@/components/landing";
 import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <Projects/>
       <Skills/>
+      <Experience/>
     </div>
   )
 }

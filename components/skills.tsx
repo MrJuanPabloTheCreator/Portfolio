@@ -11,7 +11,7 @@ export const Skills = () => {
     <section 
       id="skills"
       ref={ref}
-      className="flex justify-center items-center mb-28 scroll-mt-28 text-center z-10"
+      className="flex justify-center items-center scroll-mt-28 text-center z-10"
     >
       <div className="flex flex-col items-center z-10">
           <div className='flex w-full items-center justify-center'>
