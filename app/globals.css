@@ -59,43 +59,49 @@ body {
   left: 1200px;
 }
 
-.pjimg1 {
-  transition-property: transform;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
+@layer utilities {
+  .pjimg1 {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+  
+  .pjimg2 {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+  
+  .parent:hover .pjimg1 {
+    transform: translateX(-192px);
+  }
+  
+  .parent:hover .pjimg2{
+    transform: translateX(192px);
+  }
 
-.pjimg2 {
-  transition-property: transform;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
+  .container {
+    opacity: 0;
+  }
 
-.parent:hover .pjimg1 {
-  transform: translateX(-192px);
-}
+  .parent:hover .container{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+  }
 
-.parent:hover .pjimg2{
-  transform: translateX(192px);
+  .container-text{
+    opacity: 0;
+  }
+  
+  .parent:hover .container-text {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out 0.3s;
+  }
 }
-
-.parent:hover .container{
+/* 
+.container-sm {
   opacity: 1;
-  transition: opacity 1.5s ease-in-out;
-}
-
-.container {
-  opacity: 0;
-}
-
-.parent:hover .container-text {
-  opacity: 1;
-  transition: opacity 1.5s ease-in-out 0.3s;
-}
-
-.container-text{
-  opacity: 0;
-}
+} */
 

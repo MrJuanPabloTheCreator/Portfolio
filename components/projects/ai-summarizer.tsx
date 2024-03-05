@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
 import { FaGithub, FaReact } from "react-icons/fa"
 import { RxOpenInNewWindow } from "react-icons/rx"
 import { RiOpenaiFill } from "react-icons/ri";
