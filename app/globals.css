@@ -81,11 +81,20 @@ body {
   transform: translateX(192px);
 }
 
-.parent:hover .text{
+.parent:hover .container{
   opacity: 1;
-  transition: opacity 1.5s ease-in-out; /* Transition duration: 1s */
+  transition: opacity 1.5s ease-in-out;
 }
 
-.text {
+.container {
+  opacity: 0;
+}
+
+.parent:hover .container-text {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out 0.3s;
+}
+
+.container-text{
   opacity: 0;
 }
