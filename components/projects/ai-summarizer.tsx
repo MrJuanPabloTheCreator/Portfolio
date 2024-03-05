@@ -13,7 +13,7 @@ export const AiSummarizer = () => {
 
     return (
         <div 
-            className="flex flex-col space-y-5 parent"
+            className="flex flex-col space-y-10 md:space-y-5 parent"
         >
             <div className="flex justify-between opacity-100 md:container">
               <div className="flex flex-col">
@@ -28,10 +28,10 @@ export const AiSummarizer = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-center">      
-              <img src="MacBookSum.png" className="md:hidden h-[300px]"/>
-                <div className="flex justify-start w-full md:h-[430px] opacity-100 md:container-text">
-                  <div className="flex flex-col justify-between w-[350px] space-y-10 md:space-y-0 py-10 md:my-20">
+            <div className="flex flex-col md:h-[430px] md:flex-row justify-center">      
+              <img src="MacBookSum.png" className="md:hidden h-[300px] sm:h-[400px] mb-5"/>
+                <div className="flex justify-start w-full opacity-100 md:container-text">
+                  <div className="flex flex-col justify-center md:w-[350px] space-y-10">
                     <div className="flex flex-col">
                       <h1 className="text-white font-bold text-2xl">AI Article Summarizer</h1>
                       <p className="text-white/60 text-md">
