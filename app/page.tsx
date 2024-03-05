@@ -16,6 +16,7 @@ export default function Home() {
       <Projects/>
       <Skills/>
       <Experience/>
+      <div className="h-[100px]"/>
     </div>
   )
 }

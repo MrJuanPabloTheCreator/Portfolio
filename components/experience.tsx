@@ -9,7 +9,7 @@ export const Experience = () => {
     <section 
       id="experience"
       ref={ref}
-      className="flex flex-col justify-center items-center mb-28 scroll-mt-28 z-10"
+      className="flex flex-col justify-center items-center scroll-mt-28 z-10"
     >
         <div className='flex w-full items-center justify-center'>
             <h2 className="font-extrabold text-white/60 w-[600px] text-center mb-5 text-5xl">
@@ -28,8 +28,8 @@ export const Experience = () => {
             </div>
           </div>
           <div className="flex justify-between"> 
-            <div className="grid grid-rows-4 gap-2 px-8 py-5 max-w-[750px] text-white/80 bg-black/10 rounded-lg">
-              <div className="flex items-center border-white/80 border-t-2 pt-2">
+            <div className="grid grid-rows-4 gap-2 px-8 py-5 max-w-[750px] text-white bg-white/10 rounded-lg">
+              <div className="flex items-center">
                 <p className="flex font-semibold text-lg">• Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data from various institutional databases.</p>
               </div>
               <div className="flex items-center">
@@ -38,7 +38,7 @@ export const Experience = () => {
               <div className="flex items-center">
                 <p className="font-semibold text-lg">• Developed and presented website redesign proposals to enhance user experience and interface.</p>
               </div>
-              <div className="flex items-center border-white/80 border-b-2 pb-2">
+              <div className="flex items-center">
                 <p className="font-semibold text-lg">• Provided support for hardware setup and maintenance throughout the college.</p>
               </div>
             </div>

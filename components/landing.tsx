@@ -58,9 +58,8 @@ export const Landing = () => {
                         </Link> */}
 
                         <a
-                        className="group bg-gray-900 shadow-lg text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                        className="group bg-white/10 shadow-lg text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
                         href="/CV.pdf"
-                        // download="/CV.pdf"
                         target="_blank"
                         >
                             Open Resume
@@ -68,7 +67,7 @@ export const Landing = () => {
                         </a>
 
                         <a
-                        className="bg-white p-4 text-black shadow-lg hover:text-gray-950 flex items-center gap-2 rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                        className="bg-white p-4 text-black shadow-lg hover:text-gray-950 flex items-center gap-2 rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
                         href="https://www.linkedin.com/in/juanpcerda/"
                         target="_blank"
                         >

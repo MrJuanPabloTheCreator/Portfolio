@@ -1,7 +1,5 @@
 "use client"
 
-import { motion } from "framer-motion"
-
 interface SkillsProps {
   img: string;
   text: string;
@@ -17,28 +15,27 @@ const getStars = (expertise: number) => {
   return stars;
 };
 
-const Card: React.FC<SkillsProps> = ({
+export const Card:React.FC<SkillsProps> = ({
   img, 
   text,
   expertise,
   time
 }) => {
-  return (
-    
-    <motion.div whileHover={{ scale: 1.05 }} className=" bg-white/70 flex rounded-2xl space-x-4 p-2 items-center hover:bg-white/90 h-40 overflow-visible">
+
+  return ( 
+    <div className="flex rounded-2xl backdrop-blur-[200px] bg-white/10 space-x-4 px-2 py-4 items-center hover:bg-white/20 hover:scale-105 overflow-visible">
           <div className="h-[70px] w-[80px]">
             <img
               src={img}
               alt="photo"
+              className="cover"
             />
           </div>
           <div className="flex flex-col items-start">
-            <p className="text-pgray font-extrabold text-2xl">{text}</p>
-            <span className="text-gold font-extrabold text-xl">{getStars(expertise)}</span>
-            <p className="text-plightgray font-medium text-xl">{time}</p>
+            <p className="text-white font-extrabold text-2xl">{text}</p>
+            <p className="text-white/60 font-medium text-xl">{time}</p>
+            <span className="text-yellow-600 font-extrabold text-xl">{getStars(expertise)}</span>
           </div>
-    </motion.div>
+    </div>
   )
 }
-
-export default Card;
