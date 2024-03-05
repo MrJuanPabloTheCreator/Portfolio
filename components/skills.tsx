@@ -15,11 +15,11 @@ export const Skills = () => {
     >
       <div className="flex flex-col items-center z-10 w-full">
           <div className='flex w-full items-center justify-center'>
-            <h2 className="font-extrabold text-white/60 w-[600px] text-center mb-5 text-5xl">
+            <h2 className="font-extrabold text-white/60 text-center mb-5 text-5xl">
               Skills & Technologies
             </h2>
           </div> 
-          <div className='w-[1190px] grid grid-cols-2 lg:grid-cols-4 gap-2 p-2 h-full rounded-2xl'>    
+          <div className='lg:w-[1190px] grid grid-cols-2 lg:grid-cols-4 gap-2 p-2 h-full rounded-2xl'>    
             {skills.map((item) => (
               <Card
                 key={item.skill}

@@ -16,7 +16,7 @@ export const Experience = () => {
               Experience
             </h2>
         </div> 
-        <div className="flex flex-col w-[1000px] space-y-2">
+        <div className="flex flex-col lg:w-[1000px] mx-5 space-y-2">
           <div className="flex justify-between">
             <div className="flex flex-col">
               <h3 className="text-white text-3xl font-bold">Missouri Valley College</h3>
@@ -42,7 +42,7 @@ export const Experience = () => {
                 <p className="font-semibold text-lg">• Provided support for hardware setup and maintenance throughout the college.</p>
               </div>
             </div>
-            <div className="flex justify-center items-center p-1 rounded-lg bg-white h-[200px] w-[200px]">
+            <div className="hidden lg:block justify-center items-center p-1 rounded-lg bg-white h-[200px] w-[200px]">
               <img src="MVC.png" alt="MVC" className="object-cover"/>
             </div>
           </div>

@@ -1,8 +1,6 @@
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion"
-import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -13,9 +11,9 @@ export const Landing = () => {
         <section 
             id="home"
             ref={ref}
-            className="flex justify-center mt-40 z-10 scroll-mt-40"
+            className="flex justify-center mt-24 sm:mt-40 z-10 scroll-mt-40"
         >   
-            <div className="flex items-center justify-center">
+            <div className="flex flex-col sm:flex-row items-center justify-center">
                 <motion.div 
                     className="flex sm:w-[320px] sm:h-[320px] w-[220px] h-[220px] bg-white rounded-full items-center justify-center shadow-xl"     
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -46,17 +44,8 @@ export const Landing = () => {
                         <p className="text-lg font-medium text-white/50">Software Engineer | Full-Stack Developer</p>
                     </div>
                     <div
-                        className="flex flex-col sm:flex-row items-center justify-center gap-2 ml-[-15px] text-lg font-medium"
+                        className="flex flex-row items-center justify-center gap-2 ml-[-15px] text-lg font-medium"
                     >
-                        {/* <Link
-                        href="#contact"
-                        className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-                        onClick={() => {''}}
-                        >
-                        Contact me here{" "}
-                        <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-                        </Link> */}
-
                         <a
                         className="group bg-white/10 shadow-lg text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
                         href="/CV.pdf"
