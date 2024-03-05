@@ -90,10 +90,6 @@ body {
   opacity: 0;
 }
 
-.container-sm{
-  opacity: 1;
-}
-
 .parent:hover .container-text {
   opacity: 1;
   transition: opacity 1.5s ease-in-out 0.3s;
@@ -103,6 +99,3 @@ body {
   opacity: 0;
 }
 
-.container-text-sm{
-  opacity: 1;
-}

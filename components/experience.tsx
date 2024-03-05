@@ -17,14 +17,14 @@ export const Experience = () => {
             </h2>
         </div> 
         <div className="flex flex-col lg:w-[1000px] mx-5 space-y-2">
-          <div className="flex justify-between">
+          <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-between">
             <div className="flex flex-col">
-              <h3 className="text-white text-3xl font-bold">Missouri Valley College</h3>
+              <h3 className="text-white text-xl md:text-3xl font-bold">Missouri Valley College</h3>
               <p className="text-white/60 text-sm">INFORMATION TECHNOLOGY INTERN</p>
             </div>
-            <div className="flex flex-col items-end">
-              <p className="text-white font-bold">JAN 2024 - MAY 2024</p>
-              <p className="text-white/60 text-md">Marshall, MO</p>
+            <div className="flex flex-col md:items-end">
+              <p className="text-white text-sm md:text-md font-bold">JAN 2024 - MAY 2024</p>
+              <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
             </div>
           </div>
           <div className="flex justify-between"> 

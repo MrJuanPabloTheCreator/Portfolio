@@ -12,8 +12,8 @@ export const JpHospital = () => {
     <div 
       className="flex flex-col space-y-5 parent"
     >
-      <div className="flex justify-between">
-        <div className="flex flex-col container-sm md:container">
+      <div className="flex justify-between opacity-100 md:container">
+        <div className="flex flex-col">
           <h3 className="text-white text-xl md:text-3xl font-bold">JP Hospital</h3>
           <Link 
             target="_blank" href="https://jp-hospital.vercel.app/" 
@@ -23,7 +23,7 @@ export const JpHospital = () => {
             <RxOpenInNewWindow size={20}/>
           </Link>
         </div>
-        <div className="flex flex-col items-end justify-start container-sm md:container">
+        <div className="flex flex-col items-end justify-start">
           <p className="text-white text-md md:text-lg font-bold">
             JAN 2024 - PRESENT
           </p>
@@ -40,7 +40,7 @@ export const JpHospital = () => {
       <div className="flex flex-col md:flex-row justify-center">      
         <img src="iMacPro.png" className="hidden md:block absolute h-[430px] pjimg1"/>
         <img src="iMacPro.png" className="md:hidden h-[300px]"/>
-        <div className="flex justify-end w-full md:h-[430px] container-text-sm md:container-text">
+        <div className="flex justify-end w-full md:h-[430px] opacity-100 md:container-text">
           <div className="flex flex-col justify-between w-[350px] space-y-10 md:space-y-0 py-10 md:my-20">
             <div className="flex flex-col">
               <h1 className="text-white font-bold text-2xl">

@@ -11,30 +11,28 @@ import { SiTailwindcss } from "react-icons/si"
 
 
 export const AiSummarizer = () => {
-    const [expand, setExpand] = useState(false);
 
     return (
         <div 
-            onMouseEnter={() => setExpand(true)}
-            onMouseLeave={() => setExpand(false)} 
             className="flex flex-col space-y-5 parent"
         >
-            <div className="flex justify-between">
-              <div className="flex flex-col container">
-                <h3 className="text-white text-3xl font-bold">AI Summarizer</h3>
-                <Link target="_blank" href="https://article-summarizer-hazel.vercel.app/" className="flex items-center hover:underline text-white/60 text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
+            <div className="flex justify-between opacity-100 md:container">
+              <div className="flex flex-col">
+                <h3 className="text-white text-xl md:text-3xl font-bold">AI Summarizer</h3>
+                <Link target="_blank" href="https://article-summarizer-hazel.vercel.app/" className="flex items-center hover:underline text-white/60 text-sm md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
               </div>
-              <div className="flex flex-col items-end justify-start container">
-                <p className="text-white text-lg font-bold">OCT 2023 - NOV 2023</p>
-                <Link target="_blank" href="https://github.com/MrJuanPabloTheCreator/Article-Summarizer" className="flex items-center space-x-1 text-white/60 text-md hover:underline">
+              <div className="flex flex-col items-end justify-start">
+                <p className="text-white text-md md:text-lg font-bold">OCT 2023 - NOV 2023</p>
+                <Link target="_blank" href="https://github.com/MrJuanPabloTheCreator/Article-Summarizer" className="flex items-center space-x-1 text-white/60 text-sm md:text-md hover:underline">
                   <FaGithub size={24}/>
                   <RxOpenInNewWindow size={20}/>
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center">      
-                <div className="flex justify-start w-full h-[430px] container-text">
-                  <div className="flex flex-col justify-between w-[350px] my-20">
+            <div className="flex flex-col md:flex-row justify-center">      
+              <img src="MacBookSum.png" className="md:hidden h-[300px]"/>
+                <div className="flex justify-start w-full md:h-[430px] opacity-100 md:container-text">
+                  <div className="flex flex-col justify-between w-[350px] space-y-10 md:space-y-0 py-10 md:my-20">
                     <div className="flex flex-col">
                       <h1 className="text-white font-bold text-2xl">AI Article Summarizer</h1>
                       <p className="text-white/60 text-md">
@@ -52,7 +50,7 @@ export const AiSummarizer = () => {
                     </div>
                   </div>
                 </div>
-              <img src="MacBookSum.png" className="absolute h-[430px] pjimg2"/>
+              <img src="MacBookSum.png" className="hidden md:block absolute h-[430px] pjimg2"/>
             </div>
         </div>
     )
