@@ -1,4 +1,5 @@
 import ActiveSectionContextProvider from '@/context/active-section-context'
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -22,6 +23,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Navbar/>
           {children}
+          <Analytics />
         </ActiveSectionContextProvider>
       </body>
     </html>
