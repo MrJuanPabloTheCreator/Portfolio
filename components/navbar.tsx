@@ -10,7 +10,7 @@ export const Navbar = () => {
     const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
     return (
-        <header className="z-[999] relative hidden sm:block">
+        <header className="z-[999] relative hidden md:block">
             <motion.div 
                 className='fixed top-6 left-1/2 h-[3rem] w-[30rem] rounded-full border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg'
                 initial={{ y: -20, x: "-50%", opacity: 0 }}
