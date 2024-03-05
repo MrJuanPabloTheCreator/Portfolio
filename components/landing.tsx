@@ -56,17 +56,17 @@ export const Landing = () => {
                         </a>
 
                         <a
-                        className="bg-white p-4 text-black shadow-lg hover:text-gray-950 flex items-center gap-2 rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-                        href="https://www.linkedin.com/in/juanpcerda/"
-                        target="_blank"
+                            className="bg-white p-4 text-black text-xl shadow-lg flex items-center gap-2 rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                            href="https://www.linkedin.com/in/juanpcerda/"
+                            target="_blank"
                         >
                             <BsLinkedin />
                         </a>
 
                         <a
-                        className="bg-white p-4 text-black shadow-lg flex items-center gap-2 text-[1.35rem] rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-                        href="https://github.com/MrJuanPabloTheCreator"
-                        target="_blank"
+                            className="bg-white p-4 text-black text-xl shadow-lg flex items-center gap-2 rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                            href="https://github.com/MrJuanPabloTheCreator"
+                            target="_blank"
                         >
                             <FaGithubSquare />
                         </a>
