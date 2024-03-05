@@ -58,3 +58,34 @@ body {
   top: 400px;
   left: 1200px;
 }
+
+.pjimg1 {
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.pjimg2 {
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.parent:hover .pjimg1 {
+  transform: translateX(-192px);
+}
+
+.parent:hover .pjimg2{
+  transform: translateX(192px);
+}
+
+.parent:hover .text{
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out; /* Transition duration: 1s */
+}
+
+.text {
+  opacity: 0;
+}
