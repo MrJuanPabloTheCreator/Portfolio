@@ -48,7 +48,7 @@ export const Landing = () => {
                     >
                         <a
                         className="group bg-white/10 shadow-lg text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
-                        href="/CV.pdf"
+                        href="/JP_CV.pdf"
                         target="_blank"
                         >
                             Open Resume

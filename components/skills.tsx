@@ -20,15 +20,15 @@ export const Skills = () => {
             </h2>
           </div> 
           <div className='lg:w-[1190px] grid grid-cols-2 lg:grid-cols-4 gap-2 p-2 h-full rounded-2xl'>    
-            {skills.map((item) => (
-              <Card
-                key={item.skill}
-                img={item.img}
-                text={item.skill}
-                expertise={item.expertiselevel}
-                time={item.time}
-              />
-            ))}
+          {skills.map((item) => (
+            <Card
+              key={item.skill}
+              img={item.img}
+              text={item.skill}
+              expertise={item.expertiselevel}
+              time={item.time}
+            />
+          ))}
           </div>
       </div>
     </section>

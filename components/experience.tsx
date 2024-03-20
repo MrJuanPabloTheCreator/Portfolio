@@ -30,16 +30,22 @@ export const Experience = () => {
           <div className="flex justify-between"> 
             <div className="grid grid-rows-4 gap-2 px-8 py-5 max-w-[750px] text-white bg-white/10 rounded-lg">
               <div className="flex items-center">
-                <p className="flex font-semibold text-lg">• Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data from various institutional databases.</p>
+                <p className="flex font-semibold text-lg">• Redesigned MVC's website, preserving its traditional style while contemporizing it for a visually appealing and 
+modern digital presence. </p>
               </div>
               <div className="flex items-center">
-                <p className="font-semibold text-lg">• Developed custom report templates and dashboards tailored to specific departmental needs.</p>
+                <p className="font-semibold text-lg">• Implemented server-side rendering components using the Next.js framework to enhance render time and optimize 
+SEO performance. </p>
               </div>
               <div className="flex items-center">
-                <p className="font-semibold text-lg">• Developed and presented website redesign proposals to enhance user experience and interface.</p>
+                <p className="font-semibold text-lg">• Utilized React framework to improve interactivity and create dynamic user experiences. </p>
               </div>
               <div className="flex items-center">
-                <p className="font-semibold text-lg">• Provided support for hardware setup and maintenance throughout the college.</p>
+                <p className="font-semibold text-lg">• Designed custom CSS animations to ensure fluid transitions and visually captivating effects. </p>
+              </div>
+              <div className="flex items-center">
+                <p className="font-semibold text-lg">• Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data from vari
+ous institutional databases. </p>
               </div>
             </div>
             <div className="hidden lg:block justify-center items-center p-1 rounded-lg bg-white h-[200px] w-[200px]">
