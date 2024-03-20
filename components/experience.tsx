@@ -1,58 +1,79 @@
 "use client"
 
-import { useSectionInView } from "@/lib/hooks";
+import { useEffect } from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 export const Experience = () => {
-  const { ref } = useSectionInView("Skills");
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('experience-visible');
+        } else {
+          entry.target.classList.remove('experience-visible');
+        }
+      });
+    },{ rootMargin: '-50% 0px' });
+
+    const hiddenElements = document.querySelectorAll('.experience');
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
 
   return (
-    <section 
+    <section
       id="experience"
-      ref={ref}
-      className="flex flex-col justify-center items-center scroll-mt-28 z-10"
+      className="flex flex-col justify-center items-center scroll-mt-28 z-10 experience"
     >
-        <div className='flex w-full items-center justify-center'>
-            <h2 className="font-extrabold text-white/60 w-[600px] text-center mb-5 text-5xl">
-              Experience
-            </h2>
-        </div> 
-        <div className="flex flex-col lg:w-[1000px] mx-5 space-y-2">
-          <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-between">
-            <div className="flex flex-col">
-              <h3 className="text-white text-xl md:text-3xl font-bold">Missouri Valley College</h3>
-              <p className="text-white/60 text-sm">INFORMATION TECHNOLOGY INTERN</p>
-            </div>
-            <div className="flex flex-col md:items-end">
-              <p className="text-white text-sm md:text-md font-bold">JAN 2024 - MAY 2024</p>
-              <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
-            </div>
+      <div className="flex w-full items-center justify-center">
+        <h2 className="font-extrabold text-white/60 w-[600px] text-center mb-5 text-5xl">
+          Experience
+        </h2>
+      </div>
+      <div className="flex flex-col lg:w-[1000px] mx-5 space-y-2">
+        <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-between container-experience">
+          <div className="flex flex-col">
+            <h3 className="text-white text-xl md:text-3xl font-bold">Missouri Valley College</h3>
+            <p className="text-white/60 text-sm">Information Technology Frontend Developer</p>
           </div>
-          <div className="flex justify-between"> 
-            <div className="grid grid-rows-4 gap-2 px-8 py-5 max-w-[750px] text-white bg-white/10 rounded-lg">
-              <div className="flex items-center">
-                <p className="flex font-semibold text-lg">• Redesigned MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing and 
-modern digital presence. </p>
-              </div>
-              <div className="flex items-center">
-                <p className="font-semibold text-lg">• Implemented server-side rendering components using the Next.js framework to enhance render time and optimize 
-SEO performance. </p>
-              </div>
-              <div className="flex items-center">
-                <p className="font-semibold text-lg">• Utilized React framework to improve interactivity and create dynamic user experiences. </p>
-              </div>
-              <div className="flex items-center">
-                <p className="font-semibold text-lg">• Designed custom CSS animations to ensure fluid transitions and visually captivating effects. </p>
-              </div>
-              <div className="flex items-center">
-                <p className="font-semibold text-lg">• Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data from vari
-ous institutional databases. </p>
-              </div>
-            </div>
-            <div className="hidden lg:block justify-center items-center p-1 rounded-lg bg-white h-[200px] w-[200px]">
-              <img src="MVC.png" alt="MVC" className="object-cover"/>
-            </div>
+          <div className="flex flex-col md:items-end">
+            <p className="text-white text-sm md:text-md font-bold">JAN 2024 - PRESENT</p>
+            <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
           </div>
         </div>
+        <h3 className="text-white font-bold text-2xl arrow pt-10">What did I do?</h3>
+        <p className="flex font-semibold text-md text-white/60 arrow">
+          Redesigned the MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing
+          and modern digital presence. Implemented server-side rendering components using the Next.js framework to enhance render 
+          time and optimize SEO performance. 
+        </p>
+        <div className="flex relative justify-center items-center h-[350px]">
+          <img src="/macbookpromvcold.png" className="h-[300px] absolute bottom-0 left-[-100px] pjimg3"/> 
+          <div className="arrow text-white/40">
+            <FaArrowRight size={28} />
+          </div>
+          <img src="/MacBook Pro MVC new.png" className="h-[300px] absolute bottom-0 left-[300px] pjimg4"/> 
+        </div>
+        <div className="flex pt-10 arrow text-white/60">
+          <div className="flex flex-col w-[500px]">
+            <h3 className="text-white font-bold text-2xl">How did I do it?</h3>
+            <p className="font-semibold text-md">
+              Utilized React framework to improve interactivity and create dynamic user experiences.
+              I also designed custom CSS animations to ensure fluid transitions and visually captivating effects. 
+            </p>
+          </div>
+          <div className="flex w-[500px] flex-col">
+            <h3 className="text-white font-bold text-2xl">Extras</h3>
+            <p className="font-semibold text-md">
+              Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data 
+              from various institutional databases. 
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};

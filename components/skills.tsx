@@ -1,16 +1,15 @@
-"use client"
 
 import { skills } from '../lib/data';
 import { Card } from './card';
-import { useSectionInView } from "@/lib/hooks";
+// import { useSectionInView } from "@/lib/hooks";
 
 export const Skills = () => {
-  const { ref } = useSectionInView("Skills");
+  // const { ref } = useSectionInView("Skills");
 
   return (
     <section 
       id="skills"
-      ref={ref}
+      // ref={ref}
       className="flex justify-center items-center scroll-mt-28 text-center z-10"
     >
       <div className="flex flex-col items-center z-10 w-full">

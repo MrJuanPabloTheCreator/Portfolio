@@ -14,8 +14,8 @@ export default function Home() {
       <Landing/>
       <About/>
       <Projects/>
-      <Skills/>
       <Experience/>
+      <Skills/>
       <div className="h-[100px]"/>
     </div>
   )

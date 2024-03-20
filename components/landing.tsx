@@ -1,16 +1,16 @@
-import { useSectionInView } from "@/lib/hooks";
+// import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion"
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
 export const Landing = () => {
-    const { ref } = useSectionInView("Home");
+    // const { ref } = useSectionInView("Home");
 
     return (
         <section 
             id="home"
-            ref={ref}
+            // ref={ref}
             className="flex justify-center mt-24 sm:mt-40 z-10 scroll-mt-40"
         >   
             <div className="flex flex-col sm:flex-row items-center justify-center">

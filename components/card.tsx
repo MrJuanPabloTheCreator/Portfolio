@@ -1,5 +1,3 @@
-"use client"
-
 interface SkillsProps {
   img: string;
   text: string;
@@ -23,7 +21,7 @@ export const Card:React.FC<SkillsProps> = ({
 }) => {
 
   return ( 
-    <div className="flex rounded-2xl backdrop-blur-[200px] bg-white/10 space-x-4 px-2 py-4 items-center hover:bg-white/20 hover:scale-105 overflow-visible">
+    <div className="flex rounded-2xl backdrop-blur-[200px] bg-white/10 space-x-4 px-2 py-4 items-center overflow-visible">
           <div className="h-[70px] w-[80px]">
             <img
               src={img}
