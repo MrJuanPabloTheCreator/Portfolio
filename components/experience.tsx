@@ -30,7 +30,7 @@ export const Experience = () => {
           <div className="flex justify-between"> 
             <div className="grid grid-rows-4 gap-2 px-8 py-5 max-w-[750px] text-white bg-white/10 rounded-lg">
               <div className="flex items-center">
-                <p className="flex font-semibold text-lg">• Redesigned MVC's website, preserving its traditional style while contemporizing it for a visually appealing and 
+                <p className="flex font-semibold text-lg">• Redesigned MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing and 
 modern digital presence. </p>
               </div>
               <div className="flex items-center">
