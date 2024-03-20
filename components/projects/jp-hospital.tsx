@@ -1,12 +1,31 @@
 "use client"
 
 import Link from "next/link"
+import { useEffect } from "react"
 import { FaAws, FaGithub, FaReact } from "react-icons/fa"
 import { RxOpenInNewWindow } from "react-icons/rx"
 import { SiMysql, SiTailwindcss, SiTypescript } from "react-icons/si"
 
 
 export const JpHospital = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('parent-visible');
+        } else {
+          entry.target.classList.remove('parent-visible');
+        }
+      });
+    },{ rootMargin: '-50% 0px' });
+
+    const hiddenElements = document.querySelectorAll('.parent');
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
   
   return (
     <div 
@@ -24,7 +43,7 @@ export const JpHospital = () => {
           </Link>
         </div>
         <div className="flex flex-col items-end justify-start">
-          <p className="text-white text-md md:text-lg font-bold">
+          <p className="text-white text-md font-bold">
             JAN 2024 - PRESENT
           </p>
           <Link 

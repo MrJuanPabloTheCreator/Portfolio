@@ -59,14 +59,21 @@ body {
   left: 1200px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: slategrey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
 @layer utilities {
-  .pjimg1 {
-    transition-property: transform;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-  }
-  
+  .pjimg1,
   .pjimg2 {
     transition-property: transform;
     transition-duration: 1s;
@@ -74,11 +81,11 @@ body {
     transition-delay: 0s;
   }
   
-  .parent:hover .pjimg1 {
+  .parent.parent-visible .pjimg1 {
     transform: translateX(-192px);
   }
   
-  .parent:hover .pjimg2{
+  .parent.parent-visible .pjimg2{
     transform: translateX(192px);
   }
 
@@ -86,7 +93,7 @@ body {
     opacity: 0;
   }
 
-  .parent:hover .container{
+  .parent.parent-visible .container{
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
   }
@@ -95,12 +102,12 @@ body {
     opacity: 0;
   }
   
-  .parent:hover .container-text {
+  .parent.parent-visible .container-text {
     opacity: 1;
     transition: opacity 1.5s ease-in-out 0.3s;
   }
 
-  /* .pjimg3,
+  .pjimg3,
   .pjimg4 {
     opacity: 0;
     transition-property: transform, opacity;
@@ -109,21 +116,21 @@ body {
     transition-delay: 0s;
   }
 
-  .container-experience{
-    opacity: 0;
-  }
-
-  .experience:hover .pjimg3{
+  .experience.experience-visible .pjimg3 {
     transform: translateX(100px);
     opacity: 1;
   }
 
-  .experience:hover .pjimg4{
+  .experience.experience-visible .pjimg4 {
     transform: translateX(300px);
     opacity: 1;
   }
 
-  .experience:hover .container-experience{
+  .container-experience {
+    opacity: 0;
+  }
+
+  .experience.experience-visible .container-experience{
     opacity: 1;
     transition: opacity 1.5s ease-in-out 0.3s;
   }
@@ -132,45 +139,9 @@ body {
     opacity: 0;
   }
 
-  .experience:hover .arrow{
+  .experience.experience-visible .arrow {
     opacity: 1;
     transition: opacity 1.5s ease-in-out 0.3s;
-  } */
-.pjimg3,
-.pjimg4 {
-  opacity: 0;
-  transition-property: transform, opacity;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.experience.experience-visible .pjimg3 {
-  transform: translateX(100px);
-  opacity: 1;
-}
-
-.experience.experience-visible .pjimg4 {
-  transform: translateX(300px);
-  opacity: 1;
-}
-
-.container-experience {
-  opacity: 0;
-}
-
-.experience.experience-visible .container-experience{
-  opacity: 1;
-  transition: opacity 1.5s ease-in-out 0.3s;
-}
-
-.arrow {
-  opacity: 0;
-}
-
-.experience.experience-visible .arrow {
-  opacity: 1;
-  transition: opacity 1.5s ease-in-out 0.3s;
-}
+  }
 }
 

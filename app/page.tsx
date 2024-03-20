@@ -13,8 +13,8 @@ export default function Home() {
       <div className="circle-pink"/>
       <Landing/>
       <About/>
-      <Projects/>
       <Experience/>
+      <Projects/>
       <Skills/>
       <div className="h-[100px]"/>
     </div>

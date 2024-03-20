@@ -21,7 +21,7 @@ export const AiSummarizer = () => {
                 <Link target="_blank" href="https://article-summarizer-hazel.vercel.app/" className="flex items-center hover:underline text-white/60 text-sm md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-white text-md md:text-lg font-bold">OCT 2023 - NOV 2023</p>
+                <p className="text-white text-md font-bold">OCT 2023 - NOV 2023</p>
                 <Link target="_blank" href="https://github.com/MrJuanPabloTheCreator/Article-Summarizer" className="flex items-center space-x-1 text-white/60 text-sm md:text-md hover:underline">
                   <FaGithub size={24}/>
                   <RxOpenInNewWindow size={20}/>

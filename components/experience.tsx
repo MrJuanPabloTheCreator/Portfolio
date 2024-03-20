@@ -40,18 +40,18 @@ export const Experience = () => {
             <p className="text-white/60 text-sm">Information Technology Frontend Developer</p>
           </div>
           <div className="flex flex-col md:items-end">
-            <p className="text-white text-sm md:text-md font-bold">JAN 2024 - PRESENT</p>
+            <p className="text-white text-md font-bold">JAN 2024 - PRESENT</p>
             <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
           </div>
         </div>
         <h3 className="text-white font-bold text-2xl arrow pt-10">What did I do?</h3>
-        <p className="flex font-semibold text-md text-white/60 arrow">
+        <p className="flex text-md text-white/60 arrow">
           Redesigned the MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing
           and modern digital presence. Implemented server-side rendering components using the Next.js framework to enhance render 
           time and optimize SEO performance. 
         </p>
         <div className="flex relative justify-center items-center h-[350px]">
-          <img src="/macbookpromvcold.png" className="h-[300px] absolute bottom-0 left-[-100px] pjimg3"/> 
+          <img src="/macbookpromvcold.png" className="h-[300px] absolute bottom-0 left-[-130px] pjimg3"/> 
           <div className="arrow text-white/40">
             <FaArrowRight size={28} />
           </div>
@@ -60,14 +60,14 @@ export const Experience = () => {
         <div className="flex pt-10 arrow text-white/60">
           <div className="flex flex-col w-[500px]">
             <h3 className="text-white font-bold text-2xl">How did I do it?</h3>
-            <p className="font-semibold text-md">
+            <p className="text-md">
               Utilized React framework to improve interactivity and create dynamic user experiences.
               I also designed custom CSS animations to ensure fluid transitions and visually captivating effects. 
             </p>
           </div>
           <div className="flex w-[500px] flex-col">
             <h3 className="text-white font-bold text-2xl">Extras</h3>
-            <p className="font-semibold text-md">
+            <p className="text-md">
               Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data 
               from various institutional databases. 
             </p>
