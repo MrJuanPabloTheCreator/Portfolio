@@ -28,8 +28,8 @@ export const AiSummarizer = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col md:h-[430px] md:flex-row justify-center">      
-              <img src="MacBookSum.png" className="md:hidden h-[300px] sm:h-[400px] mb-5"/>
+            <div className="flex flex-col items-center md:items-start md:h-[430px] md:flex-row justify-center">      
+              <img src="MacBookSum.png" className="md:hidden ml-[70px] w-[350px] sm:h-[400px] mb-5"/>
                 <div className="flex justify-start w-full opacity-100 md:container-text">
                   <div className="flex flex-col justify-center md:w-[350px] space-y-10">
                     <div className="flex flex-col">

@@ -56,9 +56,9 @@ export const JpHospital = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col md:h-[430px] md:flex-row justify-center">      
+      <div className="flex flex-col items-center md:items-start md:h-[430px] md:flex-row justify-center">      
         <img src="iMacPro.png" className="hidden md:block absolute h-[430px] pjimg1"/>
-        <img src="iMacPro.png" className="md:hidden h-[300px] sm:h-[400px] mb-5"/>
+        <img src="iMacPro.png" className="md:hidden w-[300px] mb-5"/>
         <div className="flex justify-end w-full opacity-100 md:container-text">
           <div className="flex flex-col justify-center md:w-[350px] space-y-5">
             <div className="flex flex-col">
