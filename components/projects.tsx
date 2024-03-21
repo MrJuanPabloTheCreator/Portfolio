@@ -17,7 +17,7 @@ export const Projects = () => {
         <h2 className="font-extrabold text-white/40 text-center mb-5 text-5xl">
           Projects
         </h2>
-        <div className="flex flex-col justify-center space-y-20 mx-4 md:w-[800px] md:mx-0">
+        <div className="flex flex-col justify-center space-y-20 mx-5 md:w-[800px] md:mx-0">
           <JpHospital/>      
           <AiSummarizer/>
         </div>
