@@ -40,11 +40,11 @@ export const Experience = () => {
             <p className="text-white/60 text-sm">Information Technology Frontend Developer</p>
           </div>
           <div className="flex flex-col md:items-end">
-            <p className="text-white text-md font-bold">JAN 2024 - PRESENT</p>
+            <p className="text-white text-md font-bold">JAN 2024 - MAY 2024</p>
             <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
           </div>
         </div>
-        <div className="flex flex-col pt-5 md:pt-10 md:arrow pb-10 md:pb-0">
+        <div className="flex flex-col pt-5 md:arrow pb-10 md:pb-0">
           <h3 className="text-white font-bold text-2xl">What did I do?</h3>
           <p className="text-white/60 text-md font-semibold">
             Redesigned the MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing

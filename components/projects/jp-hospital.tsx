@@ -44,7 +44,7 @@ export const JpHospital = () => {
         </div>
         <div className="flex flex-col items-end justify-start">
           <p className="text-white text-md font-bold">
-            JAN 2024 - PRESENT
+            JAN 2024 - APRIL 2024
           </p>
           <Link 
             target="_blank" 
