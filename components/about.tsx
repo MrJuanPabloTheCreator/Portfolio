@@ -35,9 +35,9 @@ export const About = () => {
         About me
       </h2>
       <p className="font-medium text-md md:text-2xl text-center mx-5 md:w-[1100px] text-slate-300 about-t">
-        After being born and raised in Santiago, Chile, I came to the United States pursuing a <span className="font-extrabold text-white">Bachelor&#39;s degree in Computer Information Systems </span> at <span className="font-extrabold text-white">Missouri Valley College</span>. 
-        After four years, I am set to graduate in <span className="font-extrabold text-white">May 2024</span> and am looking forward to continuing my professional career as a creative tech enthusiast, leveraging my passion for innovation and technology to drive impactful projects and solutions.
-        While I have a strong desire to achieve great things, I am also committed to turning those dreams into reality through strategic planning and goal-setting. Challenges bring out the best in me, and creativity and determination are the two words with which I identify myself the most. 
+        After being born and raised in Santiago, Chile, I decided in 2020 to come to the United States to pursue a <span className="font-extrabold text-white">Bachelor&#39;s degree in Computer Information Systems</span> at <span className="font-extrabold text-white">Missouri Valley College</span>, thanks to an athletic scholarship.
+        After an incredible four years, I graduated in May 2024, and I couldn't be more excited about the challenges, projects, research, and teamwork opportunities that lie ahead.
+        While I have a strong desire to achieve great things, I am committed to turning those dreams into reality through methodical and strategic planning and goal-setting. Challenges bring out the best in me, and <span className="font-extrabold text-white">creativity and determination</span> are the two words that best describe me.
       </p>
     </section>
   )
