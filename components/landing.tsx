@@ -26,7 +26,7 @@ export const Landing = () => {
                 >
                     <div className="sm:w-[300px] sm:h-[300px] w-[200px] h-[200px] rounded-full overflow-hidden relative">
                         <img
-                            src="/NoBackgroundEdit_2.jpeg"
+                            src="/Profile1.jpg"
                             alt="hero_cover"
                             className=" object-contain"
                         />

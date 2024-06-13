@@ -46,7 +46,7 @@ export const Experience = () => {
         </div>
         <div className="flex flex-col pt-5 md:arrow pb-10 md:pb-0">
           <h3 className="text-white font-bold text-2xl">What did I do?</h3>
-          <p className="text-white/60 text-md font-semibold">
+          <p className="text-white/60">
             Redesigned the MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing
             and modern digital presence. Implemented server-side rendering components using the Next.js framework to enhance render 
             time and optimize SEO performance. 
@@ -62,14 +62,14 @@ export const Experience = () => {
         <div className="flex flex-col md:flex-row pt-10 md:arrow text-white/60">
           <div className="flex flex-col w-full md:w-[500px]">
             <h3 className="text-white font-bold text-2xl">How did I do it?</h3>
-            <p className="text-md font-semibold">
+            <p className="text-md">
               Utilized React framework to improve interactivity and create dynamic user experiences.
               I also designed custom CSS animations to ensure fluid transitions and visually captivating effects. 
             </p>
           </div>
           <div className="flex flex-col w-full md:w-[500px] pt-10 md:pt-0">
             <h3 className="text-white font-bold text-2xl">Extras</h3>
-            <p className="text-md font-semibold">
+            <p className="text-md">
               Assisted in generating reports using Argos Reporting tool and SQL queries to extract and analyze data 
               from various institutional databases. 
             </p>
