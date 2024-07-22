@@ -96,7 +96,8 @@ body {
   }
 
   .pjimg1,
-  .pjimg2 {
+  .pjimg2,
+  .pjimg3 {
     opacity: 0;
     transition-property: transform, opacity;
     transition-duration: 1s;
@@ -110,6 +111,11 @@ body {
   
   .parent.parent-visible .pjimg2{
     transform: translateX(192px);
+    opacity: 1;
+  }
+
+  .parent.parent-visible .pjimg3{
+    transform: translateX(255px);
     opacity: 1;
   }
 

@@ -3,6 +3,7 @@
 // import { useSectionInView } from "@/lib/hooks";
 import { JpHospital } from "./projects/jp-hospital";
 import { AiSummarizer } from "./projects/ai-summarizer";
+import PawParadise from "./projects/paw-paradise";
 
 
 export const Projects = () => {
@@ -18,6 +19,7 @@ export const Projects = () => {
           Projects
         </h2>
         <div className="flex flex-col justify-center space-y-20 mx-5 md:w-[800px] md:mx-0">
+          <PawParadise/>
           <JpHospital/>      
           <AiSummarizer/>
         </div>

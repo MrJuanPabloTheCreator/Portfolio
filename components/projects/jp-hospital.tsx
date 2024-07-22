@@ -71,7 +71,7 @@ export const JpHospital = () => {
               </p>
             </div>
             <div className="flex items-center justify-between w-full text-white"> 
-              <FaReact size={28}/>    
+              <FaReact size={28}/>
               <SiTypescript size={28}/>
               <SiTailwindcss size={28}/>
               <FaAws size={32}/>
