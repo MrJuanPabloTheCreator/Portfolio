@@ -35,9 +35,30 @@ export const About = () => {
         About me
       </h2>
       <p className="font-medium text-md md:text-2xl text-center mx-5 md:w-[1100px] text-slate-300 about-t">
-        After being born and raised in Santiago, Chile, I decided in 2020 to come to the United States to pursue a <span className="font-extrabold text-white">Bachelor&#39;s degree in Computer Information Systems</span> at <span className="font-extrabold text-white">Missouri Valley College</span>, thanks to an athletic scholarship.
-        After an incredible four years, I graduated in May 2024, and I couldn&#39;t be more excited about the challenges, projects, research, and teamwork opportunities that lie ahead.
-        While I have a strong desire to achieve great things, I am committed to turning those dreams into reality through methodical and strategic planning and goal-setting. Challenges bring out the best in me, and <span className="font-extrabold text-white">creativity and determination</span> are the two words that best describe me.
+        I&rsquo;m a tech enthusiast and recent college graduate driven by an 
+        <span className="font-extrabold text-white"> unyielding passion </span> 
+        for programming and the thrill of mastering new technologies. One of my greatest ambitions is to excel in 
+        <span className="font-extrabold text-white"> system design architecture </span> 
+        and push the boundaries of 
+        <span className="font-extrabold text-white"> performance </span> 
+        and 
+        <span className="font-extrabold text-white"> efficiency </span> 
+        in everything I build. Currently, I&rsquo;m delving deep into 
+        <span className="font-extrabold text-white"> networking </span>, 
+        <span className="font-extrabold text-white"> cloud computing</span>, and developing 
+        <span className="font-extrabold text-white"> innovative solutions </span> 
+        for 
+        <span className="font-extrabold text-white"> data-intensive applications </span>.
+        <br/><br/>
+        My journey doesn&rsquo;t stop here—I aspire to pursue a master&rsquo;s degree in 
+        <span className="font-extrabold text-white"> Artificial Intelligence</span>, 
+        with an open mind toward a Ph.D. My excitement for software development comes from the limitless possibilities to create 
+        <span className="font-extrabold text-white"> impactful</span> and 
+        <span className="font-extrabold text-white"> elegant solutions </span> 
+        that elevate user experiences. I approach every challenge with relentless 
+        <span className="font-extrabold text-white"> persistence</span> and 
+        <span className="font-extrabold text-white"> resilience</span>, while humbly acknowledging when I&rsquo;m out of my depth, and eagerly seeking wisdom from those who have ventured further. 
+        I believe learning is a lifelong journey, and every experience brings valuable lessons.
       </p>
     </section>
   )

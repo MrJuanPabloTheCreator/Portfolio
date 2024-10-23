@@ -18,7 +18,7 @@ const PawParadise = () => {
                 <Link target="_blank" href="https://paw-paradise.vercel.app/" className="flex items-center hover:underline text-white/60 text-sm md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
               </div>
               <div className="flex flex-col items-end justify-start">
-                <p className="text-white text-md font-bold">JUNE 2024 - PRESENT</p>
+                <p className="text-white text-md font-bold">JUNE 2024 - JUL 2024</p>
                 <Link target="_blank" href="https://github.com/MrJuanPabloTheCreator/e-commerce-demo" className="flex items-center space-x-1 text-white/60 text-sm md:text-md hover:underline">
                   <FaGithub size={24}/>
                   <RxOpenInNewWindow size={20}/>
@@ -26,7 +26,7 @@ const PawParadise = () => {
               </div>
             </div>
             <div className="flex flex-col items-center md:items-start md:h-[430px] md:flex-row justify-center">      
-              <img src="paw-paradise-2.png" className="md:hidden ml-[70px] w-[350px] sm:h-[400px] mb-5"/>
+              <img src="paw-paradise-2.png" className="md:hidden ml-[50px] w-[350px] sm:h-[400px] mb-5"/>
                 <div className="flex justify-start w-full opacity-100 md:container-text">
                   <div className="flex flex-col justify-center md:w-[350px] space-y-10">
                     <div className="flex flex-col">
@@ -39,9 +39,9 @@ const PawParadise = () => {
                     </div>
                     <div className="flex items-center justify-between w-full text-white">     
                       <SiTypescript size={28}/>
-                      <FaReact size={28}/>
-                      <FaAws size={32}/>
-                      <SiMysql size={40}/>
+                      <FaReact size={32}/>
+                      <FaAws size={36}/>
+                      <SiMysql size={44}/>
                       <FaGoogle size={28}/>
                     </div>
                   </div>

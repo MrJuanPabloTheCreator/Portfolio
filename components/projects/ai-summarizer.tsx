@@ -41,11 +41,11 @@ export const AiSummarizer = () => {
                       </p>
                     </div>
                     <div className="flex items-center justify-between w-full text-white">     
-                      <FaReact size={28}/>
-                      <IoLogoJavascript size={28}/>
-                      <SiTailwindcss size={28}/>
-                      <RiOpenaiFill size={28}/>
-                      <DiMongodb size={28}/>
+                      <FaReact size={32}/>
+                      <IoLogoJavascript size={32}/>
+                      <SiTailwindcss size={32}/>
+                      <RiOpenaiFill size={32}/>
+                      <DiMongodb size={32}/>
                     </div>
                   </div>
                 </div>

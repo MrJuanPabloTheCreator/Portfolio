@@ -37,7 +37,7 @@ export const Experience = () => {
         <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-between md:container-experience">
           <div className="flex flex-col">
             <h3 className="text-white text-xl md:text-3xl font-bold">Missouri Valley College</h3>
-            <p className="text-white/60 text-sm">Information Technology Frontend Developer</p>
+            <p className="text-white/60 text-sm">Web Development Intern</p>
           </div>
           <div className="flex flex-col md:items-end">
             <p className="text-white text-md font-bold">JAN 2024 - MAY 2024</p>
