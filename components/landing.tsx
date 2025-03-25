@@ -24,11 +24,11 @@ export const Landing = () => {
                         ease: [0, 0.71, 0.2, 1.01]
                     }}
                 >
-                    <div className="sm:w-[300px] sm:h-[300px] w-[200px] h-[200px] rounded-full overflow-hidden relative">
+                    <div className="sm:w-[300px] sm:h-[300px] w-[200px] h-[200px] rounded-full overflow-hidden relative flex content-center">
                         <img
                             src="/Profile1.jpg"
                             alt="hero_cover"
-                            className=" object-contain"
+                            className="object-cover"
                         />
                     </div>
                 </motion.div>

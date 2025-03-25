@@ -37,16 +37,16 @@ export const Experience = () => {
         <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-between md:container-experience">
           <div className="flex flex-col">
             <h3 className="text-white text-xl md:text-3xl font-bold">Missouri Valley College</h3>
-            <p className="text-white/60 text-sm">Web Development Intern</p>
+            <p className="text-white/60 text-md">Web Developer</p>
           </div>
           <div className="flex flex-col md:items-end">
-            <p className="text-white text-md font-bold">JAN 2024 - MAY 2024</p>
-            <p className="text-white/60 text-sm md:text-md">Marshall, MO</p>
+            <p className="text-white text-md font-bold">JAN 2024 - DEC 2024</p>
+            <p className="text-white/60 text-md md:text-md">Marshall, MO</p>
           </div>
         </div>
         <div className="flex flex-col pt-5 md:arrow pb-10 md:pb-0">
           <h3 className="text-white font-bold text-2xl">What did I do?</h3>
-          <p className="text-white/60">
+          <p className="text-white/60 w-[80%]">
             Redesigned the MVC&#39;s website, preserving its traditional style while contemporizing it for a visually appealing
             and modern digital presence. Implemented server-side rendering components using the Next.js framework to enhance render 
             time and optimize SEO performance. 

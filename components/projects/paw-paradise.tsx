@@ -15,7 +15,7 @@ const PawParadise = () => {
             <div className="flex justify-between opacity-100 md:container">
               <div className="flex flex-col">
                 <h3 className="text-white text-xl md:text-3xl font-bold">Paw Paradise</h3>
-                <Link target="_blank" href="https://paw-paradise.vercel.app/" className="flex items-center hover:underline text-white/60 text-sm md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
+                <Link target="_blank" href="https://paw-paradise.vercel.app/" className="flex items-center hover:underline text-white/60 text-md md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
               </div>
               <div className="flex flex-col items-end justify-start">
                 <p className="text-white text-md font-bold">JUNE 2024 - JUL 2024</p>

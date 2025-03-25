@@ -18,7 +18,7 @@ export const AiSummarizer = () => {
             <div className="flex justify-between opacity-100 md:container">
               <div className="flex flex-col">
                 <h3 className="text-white text-xl md:text-3xl font-bold">AI Summarizer</h3>
-                <Link target="_blank" href="https://article-summarizer-hazel.vercel.app/" className="flex items-center hover:underline text-white/60 text-sm md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
+                <Link target="_blank" href="https://article-summarizer-hazel.vercel.app/" className="flex items-center hover:underline text-white/60 text-md md:text-md">Live Demo <RxOpenInNewWindow size={20}/></Link>
               </div>
               <div className="flex flex-col items-end justify-start">
                 <p className="text-white text-md font-bold">OCT 2023 - NOV 2023</p>

@@ -36,7 +36,7 @@ const ChatApp = () => {
           <h3 className="text-white text-xl md:text-3xl font-bold">ChatApp</h3>
           <Link 
             target="_blank" href="https://dttkr7hfsj600.cloudfront.net/" 
-            className="flex items-center hover:underline text-white/60 text-sm md:text-md"
+            className="flex items-center hover:underline text-white/60 text-md md:text-md"
           >
             Live Demo 
             <RxOpenInNewWindow size={20}/>
